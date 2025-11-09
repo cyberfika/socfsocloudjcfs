@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Índice – SO Cloud</title>
+  <style>
+    :root { --bg:#0b1020; --card:#121933; --text:#e8ecff; --muted:#aab3d6; --accent:#7aa2ff; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 0; background: linear-gradient(180deg, var(--bg), #090d1a);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, sans-serif;
+      color: var(--text); min-height: 100vh; display: grid; place-items: center;
+    }
+    .container { width: 100%; max-width: 720px; padding: 32px; }
+    .card {
+      background: var(--card); border: 1px solid rgba(255,255,255,.05); border-radius: 16px;
+      padding: 28px; box-shadow: 0 10px 30px rgba(0,0,0,.25);
+    }
+    h1 { margin: 0 0 8px 0; font-size: 28px; letter-spacing: .2px; }
+    p.sub { margin: 0 0 18px 0; color: var(--muted); }
+    ul.links { list-style: none; padding: 0; margin: 14px 0 0 0; display: grid; gap: 12px; }
+    a.link {
+      display: flex; align-items: center; justify-content: space-between;
+      text-decoration: none; color: var(--text); padding: 14px 16px;
+      border: 1px solid rgba(255,255,255,.08); border-radius: 12px;
+      transition: transform .08s ease, border-color .2s ease;
+    }
+    a.link:hover { transform: translateY(-1px); border-color: var(--accent); }
+    .path { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; color: var(--accent); }
+    .ext { color: var(--muted); font-size: 14px; }
+    footer { margin-top: 18px; color: var(--muted); font-size: 12px; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Projeto II – Sistemas Operacionais em Cloud – Índice</h1>
+      <p class="sub">Atalhos úteis do serviço.</p>
+      <ul class="links">
+        <li><a class="link" href="../info"><span class="path">../info</span><span class="ext">JSON – integrantes</span></a></li>
+        <li><a class="link" href="../metricas"><span class="path">../metricas</span><span class="ext">JSON – métricas do sistema</span></a></li>
+        <li><a class="link" href="https://render.com" target="_blank" rel="noopener"><span class="path">render.com</span><span class="ext">Abrir site externo</span></a></li>
+      </ul>
+      <footer>Projeto II – Sistemas Operacionais em Cloud</footer>
+    </div>
+  </div>
+</body>
+</html>

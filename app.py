@@ -29,6 +29,18 @@ def home():
     <p><strong>Memória usada:</strong> {info['memoria_mb']} MB</p>
     <p><strong>CPU:</strong> {info['cpu_percent']}%</p>
     <p><strong>Sistema Operacional:</strong> {info['sistema_operacional']}</p>
+    
+    <div class="container">
+    <div class="card">
+      <h1>Projeto II – Sistemas Operacionais em Cloud – Índice</h1>
+      <p class="sub">Atalhos úteis do serviço.</p>
+      <ul class="links">
+        <li><a class="link" href="/info"><span class="ext">JSON – integrantes</span></a></li>
+        <li><a class="link" href="/metricas"><span class="ext">JSON – métricas do sistema</span></a></li>
+        <li><a class="link" href="https://socfsocloudjcfs.onrender.com/" target="_blank" rel="noopener"><span class="ext">Abrir site externo</span></a></li>
+      </ul>
+      <footer>Projeto II – Sistemas Operacionais em Cloud</footer>
+    </div>
     """
 
 @app.route('/info')
